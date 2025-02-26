@@ -20,7 +20,7 @@ const getPublishVersion = (isOptional) => {
   try {
     if (!workflowRef) {
       return {
-        txVersion: "7.3.2-dev",
+        txVersion: "7.3.2",
         isPreRelease: false,
         preReleaseExpiration: "0",
       };
